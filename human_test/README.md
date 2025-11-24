@@ -25,7 +25,7 @@ The port is open by default at 5000. You can also modify some parameters in `app
 
 3. **data**
 
-We have already prepared the initial data, which is located in `./data/human_test.json`. Of course, you can also click **Select File** to upload your own data; the JSON data uploaded via file will be saved in `./uploads/`. Alternatively, you can use a **relative path** to read it, for example, by entering `data/human_test.json` in the input box.
+We have already prepared the initial data, which is located in `./data/human_test_samples.json`. Of course, you can also click **Select File** to upload your own data; the JSON data uploaded via file will be saved in `./uploads/`. Alternatively, you can use a **relative path** to read it, for example, by entering `data/human_test.json` in the input box.
 
 After reading the data, the entire JSON object will be stored in `metaData` in **memory**. When you click `Next`, the data you entered will be automatically updated in `metaData`. It will only be saved locally when you click `Submit`. **In other words, remember to click the `Submit` button before closing your browser session.** 😊
 
